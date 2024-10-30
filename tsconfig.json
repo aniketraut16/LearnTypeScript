@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES2015", // Or use a higher version if desired, like "ES6", "ES2020", etc.
+    "module": "commonjs",
+    "outDir": "./",
+    "strict": true,
+    "esModuleInterop": true,
+    "lib": ["ES2015", "DOM"] // Enables modern JavaScript methods like find()
+  },
+  "include": ["*.ts"],
+  "exclude": ["node_modules"]
+}
